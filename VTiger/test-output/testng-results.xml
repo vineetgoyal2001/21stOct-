@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up report and Test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting done-Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start Browser and Getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to End]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed>>>Reports generated]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to End]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed>>>Reports generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12990" started-at="2020-10-20T12:59:20Z" finished-at="2020-10-20T12:59:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12990" started-at="2020-10-20T12:59:20Z" finished-at="2020-10-20T12:59:33Z">
+      <class name="com.automation.testcases.Login">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.automation.testcases.Login@1794d431]" name="setUpSuite" is-config="true" duration-ms="433" started-at="2020-10-20T13:59:20Z" finished-at="2020-10-20T13:59:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up report and Test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting done-Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testcases.Login@1794d431]" name="setup" is-config="true" duration-ms="7357" started-at="2020-10-20T13:59:20Z" finished-at="2020-10-20T13:59:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start Browser and Getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginVtiger()[pri:1, instance:com.automation.testcases.Login@1794d431]" name="LoginVtiger" duration-ms="3768" started-at="2020-10-20T13:59:28Z" finished-at="2020-10-20T13:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginVtiger -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.Login@1794d431]" name="teardownMethod" is-config="true" duration-ms="765" started-at="2020-10-20T13:59:32Z" finished-at="2020-10-20T13:59:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginVtiger status=SUCCESS method=Login.LoginVtiger()[pri:1, instance:com.automation.testcases.Login@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to End]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed>>>Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="Logout()[pri:2, instance:com.automation.testcases.Login@1794d431]" name="Logout" duration-ms="1" started-at="2020-10-20T13:59:32Z" finished-at="2020-10-20T13:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.Login@1794d431]" name="teardownMethod" is-config="true" duration-ms="408" started-at="2020-10-20T13:59:32Z" finished-at="2020-10-20T13:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=Login.Logout()[pri:2, instance:com.automation.testcases.Login@1794d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to End]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed>>>Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automation.testcases.Login@1794d431]" name="teardown" is-config="true" duration-ms="671" started-at="2020-10-20T13:59:33Z" finished-at="2020-10-20T13:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.testcases.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
